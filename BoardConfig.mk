@@ -36,8 +36,8 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 #TARGET_PREBUILT_KERNEL := device/samsung/serranovelte/kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/serranovelte
-TARGET_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_CONFIG := msm8916_sec_defconfig
+TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_serranovelte_eur_defconfig
 
 BOARD_HAS_NO_SELECT_BUTTON := true
